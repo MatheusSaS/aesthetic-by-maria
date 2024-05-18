@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className="container mx-auto px-4 mt-16 mb-20">
-      <div className="flex items-start justify-between flex-wrap gap-8 mb-5 bg-[#f7f6f4] p-5">
+      <div className="flex items-center md:items-start justify-center md:justify-between flex-wrap gap-8 mb-5 bg-[#f7f6f4] p-5">
         <a href="#">
           <img src="/logo.svg" alt="" className="h-32 w-32" />
         </a>
