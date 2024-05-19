@@ -1,4 +1,29 @@
+import { Route } from "next"
+import Link from "next/link"
+
 export default function Navbar() {
+  const navItems = [
+    {
+      href: "/",
+      title: "Home",
+    },
+    {
+      href: "/about",
+      title: "About",
+    },
+    {
+      href: "/treatments",
+      title: "Treatments",
+    },
+    {
+      href: "/pricelist",
+      title: "Pricelist",
+    },
+    {
+      href: "/contact",
+      title: "Contact",
+    },
+  ] satisfies { href: Route; title: string }[]
   return (
     <div className="sticky left-0 right-0 top-0 z-20 bg-white">
       <div className="mx-auto w-full max-w-screen-xl sm:px-2.5 lg:px-20">
@@ -48,15 +73,15 @@ export default function Navbar() {
                     tabIndex={0}
                     className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 right-0"
                   >
-                    <li>
-                      <a>Homepage</a>
-                    </li>
-                    <li>
-                      <a>Portfolio</a>
-                    </li>
-                    <li>
-                      <a>About</a>
-                    </li>
+                    {navItems.map((item, id) => (
+                      <Link
+                        className="mb-2"
+                        href={item.href}
+                        key={`${item.href}-${id}`}
+                      >
+                        {item.title}
+                      </Link>
+                    ))}
                   </ul>
                 </div>
               </div>
@@ -71,42 +96,15 @@ export default function Navbar() {
           <div className="container px-4 mx-auto">
             <div className="flex items-center relative">
               <ul className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden xl:flex lg:w-auto lg:space-x-12">
-                <li className="group relative">
-                  <a
+                {navItems.map((item, id) => (
+                  <Link
                     className="inline-block text-lg text-gray-900 hover:text-orange-900 font-medium"
-                    href="#"
-                    data-config-id="auto-txt-1-10"
+                    href={item.href}
+                    key={`${item.href}-${id}`}
                   >
-                    Featured
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="inline-block text-lg text-gray-900 hover:text-orange-900 font-medium"
-                    href="#"
-                    data-config-id="auto-txt-11-10"
-                  >
-                    Solutions
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="inline-block text-lg text-gray-900 hover:text-orange-900 font-medium"
-                    href="#"
-                    data-config-id="auto-txt-12-10"
-                  >
-                    Products
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="inline-block text-lg text-gray-900 hover:text-orange-900 font-medium"
-                    href="#"
-                    data-config-id="auto-txt-13-10"
-                  >
-                    Articles
-                  </a>
-                </li>
+                    {item.title}
+                  </Link>
+                ))}
               </ul>
             </div>
           </div>

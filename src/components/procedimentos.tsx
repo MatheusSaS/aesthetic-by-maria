@@ -2,6 +2,7 @@
 
 import { useEffect } from "react"
 import Image from "next/image"
+import LogoDiolase from "public/LogoDiolase.png"
 
 // Import Swiper
 import Swiper, { Autoplay } from "swiper"
@@ -42,8 +43,9 @@ export default function Procedimentos() {
                 {/* Carousel items */}
                 <div className="swiper-slide !w-auto">
                   <Image
-                    src="/LogoDiolase.png"
+                    src={LogoDiolase}
                     alt="Client 01"
+                    priority
                     width={110}
                     height={21}
                   />
