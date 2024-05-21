@@ -50,20 +50,20 @@ export default function Footer() {
           </li>
 
           <li>
-            <p className="flex justify-center">
-              <img src="casa.png" className="w-5 h-5 mr-8" alt="" />
+            <p className="flex justify-center mr-8">
+              <img src="casa.png" className="w-5 h-5 mr-1" alt="" />
               +44 208 129 5005
             </p>
           </li>
           <li>
-            <p className="flex justify-center">
-              <img src="whatsapp.png" className="w-5 h-5 mr-8" alt="" />
+            <p className="flex justify-center mr-8">
+              <img src="whatsapp.png" className="w-5 h-5 mr-1" alt="" />
               +44 7494 281058
             </p>
           </li>
           <li>
             <p className="flex justify-center">
-              <img src="instagram.png" className="w-5 h-5 mr-1" alt="" />
+              <img src="instagram.png" className="w-5 h-5 mr-2 mt-1" alt="" />
               @aesthetic_by_maria
             </p>
           </li>
