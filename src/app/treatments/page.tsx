@@ -38,7 +38,7 @@ export default function Treatments() {
               </div>
               <div className="two-col-right bg-zinc-50">
                 <div className="wrapper padding">
-                  <h2>Anti-Wrinkle</h2>
+                  <h2>ANTI-WRINKLE</h2>
                   <p>
                     Anti-Wrinkle Injectables work to prevent the formation of
                     static wrinkles by stopping the signal between the nerve and
