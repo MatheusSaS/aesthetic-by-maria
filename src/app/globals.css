@@ -113,3 +113,7 @@
     opacity: 1;
   }
 }
+
+.sobre {
+  z-index: 1080 !important;
+}

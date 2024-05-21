@@ -58,57 +58,75 @@ export default function About() {
                     </p>
                   </div>
                 </div>
-                <div className="w-full md:w-1/2 p-8">
+                <div className="w-full md:w-1/2 sm:p-8">
                   <div className="mx-auto max-w-lg md:mr-0">
                     <div className="flex flex-wrap -m-4">
                       <div className="w-1/2 p-4">
                         <div className="flex flex-wrap">
                           <div className="mb-8 w-full">
                             <img
-                              className="w-full rounded-3xl"
+                              className="w-full h-52 sm:h-80 rounded-3xl"
                               src="MariaFernanda.jpg"
                               alt=""
                             />
+                            <p className="font-semibold flex text-center justify-center mt-1">
+                              Maria Fernanda Monteiro
+                            </p>
                           </div>
 
                           <div className="mb-8 w-full">
                             <img
-                              className="w-full rounded-3xl"
+                              className="w-full h-52 sm:h-80 rounded-3xl"
                               src="/MarianaAlmanza.jpg"
                               alt=""
                             />
+                            <p className="font-semibold flex text-center justify-center mt-1">
+                              Mariana Almanza
+                            </p>
                           </div>
                           <div className="mb-8 w-full">
                             <img
-                              className="w-full rounded-3xl"
+                              className="w-full h-52 sm:h-80 rounded-3xl"
                               src="/Jamie.jpg"
                               alt=""
                             />
+                            <p className="font-semibold flex text-center justify-center mt-1">
+                              Jamies
+                            </p>
                           </div>
                         </div>
                       </div>
                       <div className="w-1/2 p-4">
-                        <div className="flex flex-wrap mt-24">
-                          <div className="mb-8 w-full">
+                        <div className="flex flex-wrap">
+                          <div className="mb-14 sm:mb-8 w-full">
                             <img
-                              className="w-full rounded-3xl"
+                              className="w-full h-52 sm:h-80 rounded-3xl"
                               src="/Dra.Bianca.jpg"
                               alt=""
                             />
+                            <p className="font-semibold flex text-center justify-center mt-1">
+                              Dr. Bianca
+                            </p>
                           </div>
                           <div className="mb-8 w-full">
                             <img
-                              className="w-full rounded-3xl"
+                              className="w-full h-52 sm:h-80 rounded-3xl"
                               src="/Dr.PaulTulley.jpg"
                               alt=""
                             />
+                            <p className="font-semibold flex text-center justify-center mt-1">
+                              Dr. Paul Tulley
+                            </p>
                           </div>
                           <div className="mb-8 w-full">
                             <img
-                              className="w-full rounded-3xl"
+                              className="w-full h-52 sm:h-80 rounded-3xl"
                               src="/Dr.CamilaAzzini.jpg"
                               alt=""
                             />
+                            <p className="font-semibold flex text-center justify-center mt-1">
+                              Dr. Camila Azzini
+                            </p>
                           </div>
                         </div>
                       </div>

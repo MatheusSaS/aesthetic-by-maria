@@ -50,42 +50,22 @@ export default function Navbar() {
                 </a>
               </div>
               <div className="absolute top-1/2 right-0 md:left-1/2 transform -translate-x-0 md:-translate-x-1/2 -translate-y-1/2 inline-block text-lg font-bold  md:hidden">
-                <div className="dropdown relative">
-                  <div
-                    tabIndex={0}
-                    role="button"
-                    className="btn btn-ghost btn-circle"
+                <label htmlFor="my-drawer">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-7 w-7"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M4 6h16M4 12h16M4 18h7"
-                      />
-                    </svg>
-                  </div>
-                  <ul
-                    tabIndex={0}
-                    className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 right-0"
-                  >
-                    {navItems.map((item, id) => (
-                      <Link
-                        className="mb-2"
-                        href={item.href}
-                        key={`${item.href}-${id}`}
-                      >
-                        {item.title}
-                      </Link>
-                    ))}
-                  </ul>
-                </div>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h7"
+                    />
+                  </svg>
+                </label>
               </div>
             </div>
           </div>
