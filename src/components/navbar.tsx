@@ -20,7 +20,7 @@ export default function Navbar() {
       title: "Pricelist",
     },
     {
-      href: "/contact",
+      href: "https://wa.me/447494281058",
       title: "Contact",
     },
   ] satisfies { href: Route; title: string }[]
@@ -45,7 +45,9 @@ export default function Navbar() {
                 />
               </a>
               <div className="hidden lg:flex lg:w-auto lg:space-x-12">
-                <p>+44 7494 281058</p>
+                <a href="https://wa.me/447494281058">
+                  <p>+44 7494 281058</p>
+                </a>
               </div>
               <div className="absolute top-1/2 right-0 md:left-1/2 transform -translate-x-0 md:-translate-x-1/2 -translate-y-1/2 inline-block text-lg font-bold  md:hidden">
                 <div className="dropdown relative">

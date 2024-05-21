@@ -1,0 +1,76 @@
+:root {
+  --bg-alt: #fafafa;
+}
+
+.pricelist-flex {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 640px) {
+  .pricelist-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2.5%;
+  }
+}
+
+.pricelist-flex-left {
+  flex-basis: 50%;
+}
+
+@media screen and (min-width: 640px) {
+  .pricelist-flex-left {
+    margin-bottom: 3rem;
+  }
+}
+
+.pricelist-flex-left h3 {
+  font-size: clamp(1.625rem, 1rem + 2.5vi, 3.625rem);
+}
+
+.pricelist-flex-left h3,
+.pricelist-flex-left p {
+  padding: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .pricelist-flex-left h3,
+  .pricelist-flex-left p {
+    padding: 0;
+  }
+}
+
+.pricelist-flex-left a.btn {
+  margin: 0 1rem 1.5rem 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .pricelist-flex-left a.btn {
+    margin: 0;
+  }
+}
+
+.pricelist-flex-right {
+  flex-basis: 50%;
+}
+
+.pricelist-flex-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricelist-flex-right ul li {
+  font-size: clamp(0.8125rem, 0.7589rem + 0.2679vi, 1rem);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pricelist-flex-right ul li:nth-child(even) {
+  background-color: var(--bg-alt);
+}

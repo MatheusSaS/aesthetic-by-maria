@@ -58,7 +58,7 @@ export default function Footer() {
         </ul>
       </div>
       <p
-        className="text-gray-500 text-sm text-right font-semibold"
+        className="text-gray-500 text-sm text-center font-semibold"
         data-config-id="auto-txt-20-2"
       >
         COPYRIGHT © 2024 AESTHETIC BY MARIA

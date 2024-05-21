@@ -23,9 +23,11 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Procedimentos />
-        <button className="fixed -bottom-1 left-1/2 transform -translate-x-1/2 bg-black text-white p-4 w-full sm:w-36 font-semibold text-xl z-50">
-          BOOK
-        </button>
+        <a href="https://www.fresha.com/pt/a/aesthetic-by-maria-london-10-adam-eve-mews-aderzrq0">
+          <button className="fixed -bottom-1 left-1/2 transform -translate-x-1/2 bg-black text-white p-4 w-full sm:w-36 font-semibold text-xl z-50">
+            BOOK
+          </button>
+        </a>
         <Footer />
       </body>
     </html>

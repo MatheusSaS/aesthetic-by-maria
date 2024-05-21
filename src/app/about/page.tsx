@@ -1,7 +1,8 @@
 "use client"
 
 import Team from "@/components/team"
-import { useEffect } from "react"
+import { Suspense, useEffect } from "react"
+import Loading from "../loading"
 
 export default function About() {
   useEffect(() => {
@@ -11,7 +12,7 @@ export default function About() {
     document.body.appendChild(script)
   }, [])
   return (
-    <>
+    <Suspense fallback={<Loading />}>
       <div className="relative w-full min-h-75 h-80">
         <div
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
@@ -125,6 +126,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </Suspense>
   )
 }

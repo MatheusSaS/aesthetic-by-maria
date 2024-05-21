@@ -7,6 +7,7 @@ import TestimonialImg02 from "public/Dr.CamilaAzzini.jpg"
 import TestimonialImg03 from "public/Dra.Bianca.jpg"
 import Maria from "public/MarianaAlmanza.jpg"
 import Jaime from "public/Jamie.jpg"
+import MariaFernanda from "public/MariaFernanda.jpg"
 
 export default function Team() {
   const [active, setActive] = useState<number>(0)
@@ -20,6 +21,16 @@ export default function Team() {
   }
 
   const items: Item[] = [
+    {
+      img: MariaFernanda,
+      quote: `I’m Maria Fernanda. I am a passionate aesthetic practitioner with a
+      deep understanding of injectables treatments. My journey in the
+      field of aesthetic began with a committment to enhancing natural
+      beauty and empowering my clients to feel confident and elegant with
+      their skin. My passion is to develop results to increase the quality
+      of the skin and help my clients to gain back their self-esteem.`,
+      name: "Maria Fernanda Monteiro",
+    },
     {
       img: DrPaulo,
       quote: `Paul Tulley is a Consultant Plastic and Reconstructive Surgeon based in London and the South-East of the UK. He specialises in all aspects of cosmetic surgery for female and male patients including facial rejuvenation surgery, rhinoplasty, cosmetic breast surgery, abdominoplasty and body contouring.
@@ -73,33 +84,12 @@ export default function Team() {
 
   return (
     <section>
-      <div className="w-full lg:w-auto text-center mx-auto">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6">
-          <img
-            className="h-96 mx-auto rounded-full"
-            src="/MariaFernanda.jpg"
-            alt=""
-          />
-          <h3 className="text-lg font-heading mb-1 font-semibold mt-3">
-            Maria Fernanda Monteiro
-          </h3>
-
-          <p className="mb-10 text-lg text-justify mt-3">
-            I’m Maria Fernanda. I am a passionate aesthetic practitioner with a
-            deep understanding of injectables treatments. My journey in the
-            field of aesthetic began with a committment to enhancing natural
-            beauty and empowering my clients to feel confident and elegant with
-            their skin. My passion is to develop results to increase the quality
-            of the skin and help my clients to gain back their self-esteem.
-          </p>
-        </div>
-      </div>
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <div className="relative pb-12 md:pb-20">
           {/* Carousel */}
           <div className="text-center">
             {/* Testimonial image */}
-            <div className="relative h-64 bg-white flex justify-center items-center overflow-hidden">
+            <div className="relative h-80 bg-white flex justify-center items-center overflow-hidden">
               {items.map((item, index) => (
                 <Transition
                   key={index}
@@ -152,7 +142,11 @@ export default function Team() {
             <div className="flex flex-wrap justify-center -m-1.5">
               {items.map((item, index) => (
                 <button
-                  className={`btn-md m-1.5 text-md py-1.5 text-white transition duration-150 ease-in-out [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none ${
+                  className={`btn-md m-1.5 text-md py-1.5 text-white transition duration-150 ease-in-out  relative before:absolute before:inset-0  before:rounded-full before:pointer-events-none ${
+                    index === 0
+                      ? "bg-orange-900"
+                      : "before:bg-slate-800/30 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]"
+                  } ${
                     active === index
                       ? "opacity-100"
                       : "opacity-30 hover:opacity-60"
