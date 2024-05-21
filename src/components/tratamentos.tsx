@@ -16,7 +16,7 @@ export default function Tratamentos() {
       <div className="carousel w-full">
         <div className="carousel-item relative">
           <Image
-            className="w-96 h-[600px]"
+            className="w-96 h-[500px]"
             src={Antiwrinkles}
             priority
             alt="Burger"
@@ -26,14 +26,14 @@ export default function Tratamentos() {
           </div>
         </div>
         <div className="carousel-item relative">
-          <Image className="w-96 h-[600px]" src={Forma} priority alt="Burger" />
+          <Image className="w-96 h-[500px]" src={Forma} priority alt="Burger" />
           <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2 text-2xl font-medium">
             Forma
           </div>
         </div>
         <div className="carousel-item relative">
           <Image
-            className="w-96 h-[600px]"
+            className="w-96 h-[500px]"
             src={Ivdrip}
             priority
             alt="Burger"
@@ -44,7 +44,7 @@ export default function Tratamentos() {
         </div>
         <div className="carousel-item relative">
           <Image
-            className="w-96 h-[600px]"
+            className="w-96 h-[500px]"
             src={Morpheus}
             priority
             alt="Burger"
@@ -55,7 +55,7 @@ export default function Tratamentos() {
         </div>
         <div className="carousel-item relative">
           <Image
-            className="w-96 h-[600px]"
+            className="w-96 h-[500px]"
             src={Teethwhitening}
             priority
             alt="Burger"
