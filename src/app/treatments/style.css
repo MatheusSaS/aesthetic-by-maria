@@ -35,27 +35,7 @@
   .two-col-left,
   .two-col-right {
     flex-basis: 50%;
-    max-width: 50%;
-  }
-}
-
-.two-col-left picture,
-.two-col-left img,
-.two-col-right picture,
-.two-col-right img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: fill;
-  object-fit: fill;
-  max-height: 540px;
-}
-
-@media screen and (min-width: 800px) {
-  .two-col-left picture,
-  .two-col-left img,
-  .two-col-right picture,
-  .two-col-right img {
-    max-height: 640px;
+    max-width: 100%;
   }
 }
 

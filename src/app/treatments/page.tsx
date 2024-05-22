@@ -24,20 +24,20 @@ export default function Treatments() {
 
       <div className="relative h-full transition-all duration-200 ease-in-out xl:ml-68">
         <div className="w-full mx-auto -mt-7">
-          <div className="relative flex flex-col flex-auto min-w-0 p-4 mx-6 overflow-hidden break-words bg-white bg-clip-border ">
-            <div className="two-col container">
-              <div className="two-col-left">
+          <div className="relative flex flex-col flex-auto min-w-0 p-4 mx-6 overflow-hidden break-words bg-white bg-clip-border justify-center items-center">
+            <div className="two-col">
+              <div className="">
                 <picture>
                   <img
-                    src="/Anti wrinklesf.jpg"
+                    src="/Anti-wrinkles500x500.png"
                     alt="Anti-Wrinkle"
-                    width="640"
-                    height="960"
+                    width="500"
+                    height="500"
                   />
                 </picture>
               </div>
-              <div className="two-col-right bg-zinc-50">
-                <div className="wrapper padding">
+              <div className="two-col-right bg-zinc-50 w-full mr-0">
+                <div className="wrapper padding p-3">
                   <h2>ANTI-WRINKLE</h2>
                   <p>
                     Anti-Wrinkle Injectables work to prevent the formation of
@@ -57,14 +57,19 @@ export default function Treatments() {
               </div>
             </div>
 
-            <div className="two-col container">
-              <div className="two-col-left order-1 mt-2">
+            <div className="two-col">
+              <div className="order-1 mt-2">
                 <picture>
-                  <img src="/Formaf.jpg" alt="Forma" width="640" height="960" />
+                  <img
+                    src="/Forma500x500.png"
+                    alt="Forma"
+                    width="500"
+                    height="500"
+                  />
                 </picture>
               </div>
               <div className="two-col-right order-1 bg-zinc-50">
-                <div className="wrapper padding">
+                <div className="wrapper padding p-3">
                   <h2>FORMA</h2>
                   <p>
                     Forma is the perfect pain-free and needless solution to skin
@@ -82,19 +87,19 @@ export default function Treatments() {
                 </div>
               </div>
             </div>
-            <div className="two-col container mt-2">
-              <div className="two-col-left">
+            <div className="two-col mt-2">
+              <div className="">
                 <picture>
                   <img
-                    src="/Lumeccaf.jpg"
+                    src="/Lumecca500x500.png"
                     alt="Lumeccaf"
-                    width="640"
-                    height="960"
+                    width="500"
+                    height="500"
                   />
                 </picture>
               </div>
               <div className="two-col-right bg-zinc-50">
-                <div className="wrapper padding">
+                <div className="wrapper padding p-3">
                   <h2>LUMECCA</h2>
                   <p>
                     Lumecca is the most powerful intense pulsed light (IPL) to
@@ -113,19 +118,19 @@ export default function Treatments() {
               </div>
             </div>
 
-            <div className="two-col container">
-              <div className="two-col-left order-1 mt-2">
+            <div className="two-col">
+              <div className=" order-1 mt-2">
                 <picture>
                   <img
-                    src="/Morpheusf.jpg"
+                    src="/Morpheus500x500.png"
                     alt="Dermal Fillers"
-                    width="640"
-                    height="960"
+                    width="500"
+                    height="500"
                   />
                 </picture>
               </div>
               <div className="two-col-right order-1 bg-zinc-50">
-                <div className="wrapper padding">
+                <div className="wrapper padding p-3">
                   <h2>MORPEHUS8</h2>
                   <p>
                     Morpheus8 is a revolutionary treatment that can be used on
@@ -144,19 +149,19 @@ export default function Treatments() {
                 </div>
               </div>
             </div>
-            <div className="two-col container mt-2">
-              <div className="two-col-left">
+            <div className="two-col mt-2">
+              <div className="">
                 <picture>
                   <img
-                    src="/Teeth whiteningf.jpg"
+                    src="/Teeth-whitening500x500.png"
                     alt="Anti-Wrinkle"
-                    width="640"
-                    height="960"
+                    width="500"
+                    height="500"
                   />
                 </picture>
               </div>
               <div className="two-col-right bg-zinc-50">
-                <div className="wrapper padding">
+                <div className="wrapper padding p-3">
                   <h2>TEETH WHITENING</h2>
                   <p>
                     Tooth whitening can be a very effective way of lightening
@@ -176,19 +181,19 @@ export default function Treatments() {
               </div>
             </div>
 
-            <div className="two-col container">
-              <div className="two-col-left order-1 mt-2">
+            <div className="two-col">
+              <div className="order-1 mt-2">
                 <picture>
                   <img
-                    src="/Votivaf.jpg"
+                    src="/Votiva500x500.png"
                     alt="Dermal Fillers"
-                    width="640"
-                    height="960"
+                    width="500"
+                    height="500"
                   />
                 </picture>
               </div>
               <div className="two-col-right order-1 bg-zinc-50">
-                <div className="wrapper padding">
+                <div className="wrapper padding p-3">
                   <h2>VOTIVA</h2>
                   <p>
                     Vaginal Rejuvenation is a NON-Surgical procedure designed to
