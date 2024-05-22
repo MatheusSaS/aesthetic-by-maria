@@ -11,7 +11,7 @@ export default function Tratamentos() {
   return (
     <div className="mt-16">
       <div className="flex text-center justify-center mb-16">
-        <h1 className="font-semibold text-2xl">TRATAMENTS</h1>
+        <h1 className="font-semibold text-2xl">TREATMENTS</h1>
       </div>
 
       <div className="carousel w-full">

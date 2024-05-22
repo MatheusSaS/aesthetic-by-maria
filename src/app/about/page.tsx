@@ -18,7 +18,7 @@ export default function About() {
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{ backgroundImage: "url('/hero-home.jpg')" }}
         >
-          <span className="absolute top-0 left-0 w-full h-full bg-[#a16b52] opacity-60"></span>
+          <span className="absolute top-0 left-0 w-full h-full  opacity-60"></span>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ export default function About() {
                 <div className="w-full md:w-1/2 p-8">
                   <div className="md:max-w-md">
                     <h2
-                      className="mb-8 text-6xl md:text-7xl tracking-tighter-xl text-[#a16b52]"
+                      className="mb-8 text-6xl md:text-7xl tracking-tighter-xl"
                       data-config-id="auto-txt-2-3"
                     >
                       About Our Clinic
