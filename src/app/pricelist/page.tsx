@@ -18,7 +18,7 @@ export default function Pricelist() {
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{ backgroundImage: "url('/Clínica03.jpg')" }}
         >
-          <span className="absolute top-0 left-0 w-full h-full bg-[#a16b52] opacity-60"></span>
+          <span className="absolute top-0 left-0 w-full h-full opacity-60"></span>
         </div>
       </div>
 
