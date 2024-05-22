@@ -30,7 +30,7 @@ export default function Votiva() {
                 truly unique!
               </p>
             </div>
-            <div className="about-flex-right min-w-96">
+            <div className="about-flex-right sm:min-w-96">
               <h2>Conditions</h2>
 
               <ul>
